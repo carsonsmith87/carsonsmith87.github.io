@@ -18,6 +18,7 @@ body{
 }
 
 #header{
+    color: purple
     font-size: 10vh;
     line-height: 7vh;
     margin: 10vh 0 2vh 0;
@@ -25,7 +26,7 @@ body{
 }
 
 #tagline{
-    color: orange;
+    color: goldenrod;
     padding: 0 1vw 0 1vw;
     font-size: 3vh;
     line-height: 5vh;
