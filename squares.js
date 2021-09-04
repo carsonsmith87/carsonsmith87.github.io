@@ -45,7 +45,14 @@ function light_box(x, y) {
 }
 
 function draw_from_index(x, y) {
-    c.fillStyle = "purple";
+    let t = Math.random()
+
+    if (t < 0.5) {
+         c.fillStyle = "purple";
+    }
+    else {
+    c.fillStyle = "goldenrod";
+    }
     c.globalAlpha = 1;
 
     let x_pixel = x * (X_OFFSET + SQUARE_SIZE) + X_OFFSET;
