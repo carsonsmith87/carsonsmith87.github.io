@@ -67,7 +67,7 @@ function fadeSquares() {
         c.globalAlpha = coor.alpha;
         c.lineWidth = '0.15';
         c.fillStyle = "#050505";
-        c.strokeStyle = "ghostwhite";
+        c.strokeStyle = "purple";
         c.fillRect(coor.x, coor.y, SQUARE_SIZE, SQUARE_SIZE);
 
 
