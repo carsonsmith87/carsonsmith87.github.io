@@ -1,18 +1,8 @@
-@font-face {
-    font-family: LouisGeorgeCafe;
-    src: url("fonts/LouisGeorgeCafe.woff") format("woff"), url("fonts/LouisGeorgeCafe.ttf")  format("truetype");
-}
-
-@font-face {
-    font-family: LouisGeorgeCafeItalics;
-    src: url("fonts/LouisGeorgeCafeItalics.woff") format("woff"), url("fonts/LouisGeorgeCafeItalics.ttf")  format("truetype");
-}
 
 body{
     background-color: black;
     color: white;
     margin: 0px;
-    font-family: 'LouisGeorgeCafe', sans-serif;
     overflow: auto;
     padding: 0;
 }
