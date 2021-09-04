@@ -24,7 +24,7 @@ function create_canvas(){
 }
 
 function drawGrid(){
-    c.fillStyle = "#050505";
+    c.fillStyle = "#e8c264";
     c.strokeStyle = "ghostwhite";
     c.lineWidth = '0.15';
     
