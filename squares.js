@@ -45,7 +45,7 @@ function light_box(x, y) {
 }
 
 function draw_from_index(x, y) {
-    c.fillStyle = "purple";
+    c.fillStyle = "red";
     c.globalAlpha = 1;
 
     let x_pixel = x * (X_OFFSET + SQUARE_SIZE) + X_OFFSET;
