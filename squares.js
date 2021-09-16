@@ -45,14 +45,7 @@ function light_box(x, y) {
 }
 
 function draw_from_index(x, y) {
-    let t = Math.random()
-
-    if (t < 0.5) {
-         c.fillStyle = "purple";
-    }
-    else {
-    c.fillStyle = "goldenrod";
-    }
+    c.fillStyle = "grey";
     c.globalAlpha = 1;
 
     let x_pixel = x * (X_OFFSET + SQUARE_SIZE) + X_OFFSET;
@@ -74,7 +67,7 @@ function fadeSquares() {
         c.globalAlpha = coor.alpha;
         c.lineWidth = '0.15';
         c.fillStyle = "#050505";
-        c.strokeStyle = "purple";
+        c.strokeStyle = "ghostwhite";
         c.fillRect(coor.x, coor.y, SQUARE_SIZE, SQUARE_SIZE);
 
 
@@ -91,4 +84,3 @@ function fadeSquares() {
         to_redraw = false;
     }
 }
-
